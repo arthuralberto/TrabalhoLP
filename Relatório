@@ -1,0 +1,18 @@
+Aluno: Arthur Alberto Guedes
+
+
+  Para implementar um tradutor da linguagem DOOL para a linguagem C foi usado como idéia central a estratégia de representar as 
+formas da linguagem DOOL (BNF) com o uso de expressões regulares, aproveitando toda a flexibilidade que a linguagem LUA dispõe
+para representar e manipular as expressões.
+  A primeira etapa da implementação é definir as expressões regulares e todas as variáveis de controle usadas para que essas expressões
+não se misturem e façam a tradução de uma forma equivocada.
+  A segunda etapa tem como objetivo o reconhecimento das expressões regulares, ou seja, identificar a regra que está sendo utilizada
+na linha do arquivo recebido, para que possa ser feita as alterações corretas na forma correspondente em linguagem C. Para isso, fora
+utilizado diversas sentenças condicionais com cada possibilidade existente de combinações das regras de linguagem.
+  A terceira etapa consiste na tradução em si, baseando-se no reconhecimento feito na etapa anterior e na transformação que permita
+que os resultados não sejam alterados após a tradução feita.  
+  As principais dificuldades encontradas no trabalho foram gerenciar a  orientação a objetos de uma maneira correta e implementar a
+definição de herança de uma forma que não haja interferencia no resto do programa.
+  
+
+  
